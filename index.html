@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TETRIS</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body onload="init()" onkeydown="movePiece(event)" background="img/background.jpg">
+    <h1 class="title">TETRIS</h1>
+
+    <div class="score-time">
+        <div>SCORE: <span class="score">0</span></div>
+        <div>TIME: <span class="time">0</span></div>
+        <h6>Press "SPACE" for music</h6>
+    </div>
+
+    <table class="board-container">
+        <tbody>
+
+        </tbody>
+    </table>
+    <h2 hidden class="game-over">Game Over!</h2>
+    <button hidden class="restart" onclick="init()">Play Again</button>
+
+
+    <!-- <div class="buttons">
+        <button class="btn right" onclick="moveRightBtnClicked()">➡️</button>
+        <button class="btn left" onclick="moveLeftBtnClicked()">⬅️</button>
+        <button class="btn down" onclick="moveDownBtnClicked()">⬇️</button>
+    </div>
+    <div class="spin">
+        <button class="btn spin" onclick="spinPiece()">↺</button>
+    </div> -->
+
+
+
+
+</body>
+<script src="js/game.js"></script>
+
+</html>

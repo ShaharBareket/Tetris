@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+}
+
+.start {
+    width: 50px;
+    height: 50px;
+}
+
+.title {
+    margin: 0;
+    color: orangered;
+    font-family: fantasy;
+    font-size: 70px;
+    text-align: center;
+}
+
+.board-container {
+    margin: auto;
+    width: auto;
+    height: auto;
+    border: 10px groove darkblue;
+    background-color: lightgrey;
+}
+
+.cell {
+    width: 15px;
+    height: 15px;
+    background-color: lightgray;
+}
+
+.score-time {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 60px;
+    border: 5px lightblue groove;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: wheat;
+}
+
+h6 {
+    margin: 0 auto;
+}
+
+
+/* 
+.spin {
+    display: inline-block;
+    position: fixed;
+    top: 180px;
+    right: 450px;
+    width: 120px;
+    height: 50px;
+}
+
+.btn .spin {
+    border-radius: 5px;
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.buttons {
+    display: inline-block;
+    position: fixed;
+    top: 280px;
+    right: 420px;
+    width: 120px;
+    height: 50px;
+}
+
+.btn {
+    border-radius: 5px;
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+} */
+
+.restart {
+    /* position: fixed; */
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    font-weight: bold;
+}
+
+.game-over {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
